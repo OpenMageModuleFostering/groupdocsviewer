@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/GroupDocsViewer",
+    "type": "magento-module",
+    "license": "GPL",
+    "homepage": "",
+    "description": "GroupDocs Viewer allow to view documents and images from GroupDocs Account",
+    "authors": [
+    {
+        "name": "Marketplace",
+        "email": "support@groupdocs.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
