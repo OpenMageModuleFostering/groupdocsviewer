@@ -25,7 +25,9 @@
         if(ans.length<50) { alert('Sorry, but this File ID is too short'); return false; }
         if(ans.length>70) { alert('Sorry, but this File ID is too big'); return false; }
         // all good continue
-        var iframe = '<iframe src="https://apps.groupdocs.com/document-viewer/embed/'+ans+'" frameborder="0" width="600" height="400"></iframe>';
+        var cmsName = 'Magento'
+        var cmsVersion = '1.7'
+        var iframe = '<iframe src="https://apps.groupdocs.com/document-viewer/embed/'+ans+'?&referer='+cmsName+'/'+cmsVersion+'" frameborder="0" width="600" height="400"></iframe>';
         var tinyMceContent = tinyMCE.activeEditor.getContent();
         // set content
         tinyMCE.activeEditor.setContent(tinyMceContent+iframe);
