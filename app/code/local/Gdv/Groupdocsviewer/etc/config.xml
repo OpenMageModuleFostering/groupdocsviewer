@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Gdv_Groupdocsviewer>
+            <version>0.1.0</version>
+        </Gdv_Groupdocsviewer>
+    </modules>
+    
+    <global>
+        
+    <blocks>
+         <adminhtml>
+            <rewrite>
+                <cms_page_edit>Gdv_Groupdocsviewer_Block_Adminhtml_Cms_Page_Edit</cms_page_edit>
+            </rewrite>
+        </adminhtml>
+    </blocks>
+
+        
+        <models>
+            <groupdocsviewer>
+                <class>Gdv_Groupdocsviewer_Model</class>
+                <resourceModel>groupdocsviewer_mysql4</resourceModel>
+            </groupdocsviewer>
+            <groupdocsviewer_mysql4>
+                <class>Gdv_Groupdocsviewer_Model_Mysql4</class>
+                <entities>
+                    <groupdocsviewer>
+                        <table>groupdocsv</table>
+                    </groupdocsviewer>
+                </entities>
+            </groupdocsviewer_mysql4>
+        </models>
+<resources>
+        <groupdocsviewer_write>
+            <connection>
+                <use>core_write</use>
+            </connection>
+        </groupdocsviewer_write>
+
+       <groupdocsviewer_read>
+          <connection>
+             <use>core_read</use>
+          </connection>
+       </groupdocsviewer_read>
+       
+       <groupdocsviewer_delete>
+          <connection>
+             <use>core_delete</use>
+          </connection>
+       </groupdocsviewer_delete>
+</resources>
+
+        
+        
+        
+        
+        <blocks>
+            <groupdocsviewer>
+                <class>Gdv_Groupdocsviewer_Block</class>
+            </groupdocsviewer>
+        </blocks>
+        <helpers>
+            <groupdocsviewer>
+                <class>Gdv_Groupdocsviewer_Helper</class>
+            </groupdocsviewer>  
+        </helpers>
+    </global>
+    
+    <admin>
+        <routers>
+            <groupdocsviewer>
+                <use>admin</use>
+                <args>
+                    <module>Gdv_Groupdocsviewer</module>
+                    <frontName>groupdocsviewer</frontName>
+                </args>
+            </groupdocsviewer>
+        </routers>
+    </admin>
+    
+    <adminhtml>
+        
+        <menu>
+            <catalog>
+                <children>
+                    <groupdocsviewer_adminform translate="title" module="groupdocsviewer">
+                        <title>Groupdocs Viewer</title>
+                        <action>groupdocsviewer/adminhtml_viewer</action>
+                    </groupdocsviewer_adminform>
+                </children>
+            </catalog>
+        </menu>
+        
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <catalog>
+                            <children>
+                                <groupdocsviewer_adminform>
+                                    <title>Groupdocs Viewer</title>
+                                </groupdocsviewer_adminform>
+                            </children>
+                        </catalog>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+        
+        <layout>
+            <updates>
+                <groupdocsviewer>
+                    <file>groupdocsviewer.xml</file>
+                </groupdocsviewer>
+            </updates>
+        </layout>
+    </adminhtml>
+</config>
