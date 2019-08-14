@@ -3,11 +3,11 @@
     "type": "magento-module",
     "license": "GPL",
     "homepage": "",
-    "description": "GroupDocs Viewer allow to view documents and images from GroupDocs Account",
+    "description": "The GroupDocs Viewer extension for Magento lets you embed documents, complete with an online viewer, into Magento pages. Publish documents with GroupDocs Viewer plugin to get a professional look and convenient navigation.",
     "authors": [
     {
-        "name": "Marketplace",
-        "email": "support@groupdocs.com"
+        "name": "GroupDocs",
+        "email": "marketplace@groupdocs.com"
     }
 ],
     "suggest": {

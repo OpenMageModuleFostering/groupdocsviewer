@@ -1,20 +1,20 @@
 <?xml version="1.0"?>
 <package>
     <name>GroupDocsViewer</name>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
     <stability>stable</stability>
-    <license uri="http://www.opensource.org/licenses/gpl-license.php">GPL</license>
+    <license>GPL</license>
     <channel>community</channel>
     <extends/>
-    <summary>GroupDocs Viewer allow to view documents and images from GroupDocs Account</summary>
-    <description>GroupDocs Viewer allow to view documents and images from GroupDocs Account. Functionalities like File Upload and GroupDocs Acc. File Browsing avalible from "ver. 1.3". &#xD;
-GroupDocs is a next generation Document Management solution that makes it easier for businesses to collaborate, share and work with documents online. So, organise, view, annotate, compare, assemble and share all your documents with Magento&#xD;
-For more details go to: http://groupdocs.com</description>
-    <notes>Client CMS name tracking was added(referer parameter in the URL)</notes>
-    <authors><author><name>Marketplace</name><user>groupdocs</user><email>support@groupdocs.com</email></author></authors>
-    <date>2012-11-30</date>
-    <time>12:10:33</time>
-    <contents><target name="magelocal"><dir><dir name="Gdv"><dir name="Groupdocsviewer"><dir name="Block"><dir name="Adminhtml"><dir name="Cms"><dir name="Page"><file name="Edit.php" hash="a6fac9edc47727425b36e2ba869560b3"/></dir></dir><file name="Groupdocsviewer.php" hash="2ab98ae44c640a6f6db59b4d67c4f9aa"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="ViewerController.php" hash="8581889e732003b55a0a1d5cbc9ee9df"/></dir></dir><dir name="etc"><file name="config.xml" hash="d72d6a96b8bc3dcc1c09a7331f0db05f"/></dir><dir name="Helper"><file name="Data.php" hash="6bc4a4889980f633b47a37cb16d699d0"/></dir><dir name="Model"><dir name="Mysql4"><dir name="Groupdocsviewer"><file name="Collection.php" hash="5909054d74e838e456240e0c56563999"/></dir><file name="groupdocsviewer.php" hash="1522ec3ddecaf1bdaee7cb22bd51af72"/><file name="groupdocsviewer.php" hash="1522ec3ddecaf1bdaee7cb22bd51af72"/></dir><file name="groupdocsviewer.php" hash="a8bf450c76627f2f99d47dab7ce4dd8d"/></dir><dir name="sql"><dir name="Groupdocsviewer_setup"><file name="mysql4-install-0.1.0" hash="ff4a22a88da7623de400f7e5fba97a4e"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir><dir name="modules"><file name="Gdv_Groupdocsviewer.xml" hash="e7ed6019781839f87c6066c82300470c"/></dir></dir></target></contents>
+    <summary>The GroupDocs Viewer extension for Magento lets you embed documents, complete with an online viewer, into Magento pages. Publish documents with GroupDocs Viewer plugin to get a professional look and convenient navigation.</summary>
+    <description>GroupDocs Viewer is an online tool that lets you upload and share documents of many different formats - DOC, DOCX, XLS, XLSX, PPT, PPTX, ODT, PDF, PNG, and many more - with others, regardless of what system or software they use. It allows you to publish documents online and make sure that they look just like you intended them to look.&#xD;
+&#xD;
+With the GroupDocs Viewer extension, it is easy to embed documents with the viewer. Visitors to your site view your documents, presentations and images in a straight-forward, professional-looking interface. As GroupDocs Viewer supports all business as well as common file formats, it can be used as an HTML5 PDF viewer, Microsoft Word viewer, Excel viewer, amongst many others.</description>
+    <notes>Updated referer parameter and iframe tag</notes>
+    <authors><author><name>GroupDocs</name><user>Marketplace</user><email>marketplace@groupdocs.com</email></author></authors>
+    <date>2013-05-29</date>
+    <time>12:57:23</time>
+    <contents><target name="magelocal"><dir><dir name="Gdv"><dir name="Groupdocsviewer"><dir name="Block"><dir name="Adminhtml"><dir name="Cms"><dir name="Page"><file name="Edit.php" hash="b9ae2837ff68b2e5aff882225ea3afac"/></dir></dir><file name="Groupdocsviewer.php" hash="2ab98ae44c640a6f6db59b4d67c4f9aa"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="ViewerController.php" hash="8581889e732003b55a0a1d5cbc9ee9df"/></dir></dir><dir name="etc"><file name="config.xml" hash="d72d6a96b8bc3dcc1c09a7331f0db05f"/></dir><dir name="Helper"><file name="Data.php" hash="6bc4a4889980f633b47a37cb16d699d0"/></dir><dir name="Model"><dir name="Mysql4"><dir name="Groupdocsviewer"><file name="Collection.php" hash="5909054d74e838e456240e0c56563999"/></dir><file name="groupdocsviewer.php" hash="1522ec3ddecaf1bdaee7cb22bd51af72"/><file name="groupdocsviewer.php" hash="1522ec3ddecaf1bdaee7cb22bd51af72"/></dir><file name="groupdocsviewer.php" hash="a8bf450c76627f2f99d47dab7ce4dd8d"/></dir><dir name="sql"><dir name="Groupdocsviewer_setup"><file name="mysql4-install-0.1.0" hash="ff4a22a88da7623de400f7e5fba97a4e"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir><dir name="modules"><file name="Gdv_Groupdocsviewer.xml" hash="e7ed6019781839f87c6066c82300470c"/></dir></dir></target></contents>
     <compatible/>
-    <dependencies><required><php><min>5.3.0</min><max>5.4.8</max></php></required></dependencies>
+    <dependencies><required><php><min>5.3.0</min><max>5.4.15</max></php></required></dependencies>
 </package>
