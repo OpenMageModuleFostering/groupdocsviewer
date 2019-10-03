@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/GroupDocsViewer",
+    "name": "OpenMageModuleFostering\/GroupDocsViewer",
     "type": "magento-module",
     "license": "GPL",
     "homepage": "",
     "description": "The GroupDocs Viewer extension for Magento lets you embed documents, complete with an online viewer, into Magento pages. Publish documents with GroupDocs Viewer plugin to get a professional look and convenient navigation.",
     "authors": [
-    {
-        "name": "GroupDocs",
-        "email": "marketplace@groupdocs.com"
-    }
-],
+        {
+            "name": "GroupDocs",
+            "email": "marketplace@groupdocs.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
